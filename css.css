@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+
+
+
+
+.section1_hojiakbar {
+    display: flex;
+    background-color: #E7F066;
+    flex-direction: row;
+}
+
+
+
+.sec1left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.im {
+    padding: 26px;
+    position: absolute;
+}
+
+
+.sec1right {
+    width: 360px;
+    background-color: #E7F066;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 150px;
+}
+
+.icon img {
+    margin: 15px;
+}
+
+
+
+
+
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+
+.top p {
+    width: 277px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+
+    letter-spacing: 0.5px;
+
+    color: #262626;
+
+}
+
+
+.top span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 158% */
+
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    color: #262626;
+    padding: 10px;
+}
+
+
+.top hr {
+    width: 138px;
+    height: 2px;
+    margin-left: 10px;
+
+}
+
+
+.blackdiv{
+    background-color: black;
+    width: 376px;
+    color: white;
+    height: 254px;
+    margin-top: 265px;
+    padding: 46px;
+    margin-right: 50px;
+}
+
